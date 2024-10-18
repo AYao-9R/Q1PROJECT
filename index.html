@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Q1 ICT Project</title>
+
+    <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+        .header {
+            margin-bottom: 0;
+            padding: 0;
+            text-align: center;
+            }
+
+        .container {
+            margin: 1px auto;
+            padding: 20px;
+            max-width: 1200px;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        body {
+          background-image: url("https://wallpapergod.com/images/hd/black-and-white-aesthetic-1920X1080-wallpaper-lxq5z6i1jjqppojl.webp");
+          background-repeat: none;
+          background-size: cover;
+        }
+
+        .card-wrapper {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: black;
+        }
+
+        .card {
+            background-color: #9EA1A9;
+            border: 1px solid #ddd;
+            width: 200px;
+            margin: 50px;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #3E3A40;
+            font-family: "Inter", sans-serif;
+        }
+
+        .card p {
+            font-size: 1em;
+            color: #3E3A40;
+            font-weight: 200;
+        }
+
+        .card button {
+            background-color: #3E3A40;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #3E3A40;
+        }
+
+        .card:hover {
+            box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+        }
+
+        .login {
+            color: white;
+            margin-top: 30px;
+            align-content: center;
+            background-color: #333;
+        }
+
+        .footer{
+            color: white;
+            font-family: "Afacad Flux", sans-serif;
+            font-style: bold;
+            }
+    </style>
+</head>
+<body>
+<div class="header">
+        <img src="aky-logo2.png" alt="logo">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Just In</a></li>
+  <li><a href="#account">Account</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+    <div class="container">
+    <div class="card-wrapper">
+
+<!-- Product 1 -->
+        <div class="card" id="home">
+            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/476761/item/goods_09_476761.jpg?width=750" alt="Product 1">
+            <h3>multi pocket shoulder bag</h3>
+            </p><br>PHP 1490</p>
+            <button>Add to Bag</button>
+        </div>
+
+<!-- Product 2 -->
+        <div class="card">
+            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462028/sub/goods_462028_sub14.jpg?width=750" alt="Product 2">
+            <h3>fleece long sleeve full-zip jacket</h3>
+            </p><br>PHP 1,990</p>
+            <button>Add to Bag</button>
+        </div>
+
+<!-- Product 3 -->
+        <div class="card">
+            <img src="https://image.uniqlo.com/UQ/ST3/ph/imagesgoods/471666/sub/phgoods_471666_sub23.jpg?width=750" alt="Product 3">
+            <h3><br>3D merino blend ribbed sweater</h3>
+            </p><br>PHP 3,990</p>
+            <button>Add to Bag</button>
+        </div>
+
+<!-- Product 4 -->
+        <div class="card">
+            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/469953/sub/goods_469953_sub14.jpg?width=750" alt="Product 4">
+            <h3>pile lined<br>fleece jacket</h3>
+            </p><br>PHP 1,490</p>
+            <button>Add to Bag</button>
+        </div>
+
+<!-- Product 5 -->
+        <div class="card">
+            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/470040/item/goods_69_470040.jpg?width=750" alt="Product 5">
+            <h3>round mini shoulder bag</h3>
+            </p><br>PHP 790</p>
+            <button>Add to Bag</button>
+        </div>
+
+<!-- Product 6 -->
+        <div class="card">
+            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/470021/item/goods_07_470021.jpg?width=750" alt="Product 6">
+            <h3>HEATTECH<br>scarf</h3>
+            </p><br>PHP 990</p>
+            <button>Add to Bag</button>
+        </div>
+    </div>
+
+    <div class="login" id="account">
+        <form>
+            <br />
+            <h2>Create Your Account Here</h2>
+            <br />
+            <label>your email:</label>
+            <input type="email" name="email">
+            <br />
+            <label>password:</label>
+            <input type="password" name="password">
+            <br />
+            <button name="submit" type="submit" value="submit">Start Shopping!</button>
+        </form>
+    </div>
+</div>
+
+    <div class="footer">
+        <p>YAO, AMANDA PRAISE KHO | 9-RUBY | ICT PROJECT | IMAGE SOURCE: UNIQLO</p>
+    </div>
+</body>
